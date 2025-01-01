@@ -8,7 +8,7 @@ def longest_substring(string: str) -> int:
         if string[i] in dic:
             start = max(start,dic[string[i]]+1)
         dic[string[i]] = i
-        max_length = max(max_length,i-start+)
+        max_length = max(max_length,i-start+1)
     return max_length
 
 s = input("Enter any String ")
