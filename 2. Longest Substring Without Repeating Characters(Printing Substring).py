@@ -7,7 +7,7 @@ def longest_substring(string: str) -> int:
     for i in range(len(string)):
         if string[i] in dic:
             start = max(start,dic[string[i]]+1)
-        dic[string[i]] = i
+        dic[string[i]] = k
 
         current_length = i - start + 1
         if current_length>max_length:
