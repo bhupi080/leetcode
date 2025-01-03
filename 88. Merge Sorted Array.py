@@ -10,7 +10,7 @@ class Solution(object):
 
         # Pointers for nums1 and nums2, and the last index of nums1
         #p1, p2, p = m - 1, n - 1, m + n - 1
-        p1 = m - 1
+        p1 = m - (1)
         p2 = n - 1
         p = m + n - 1
 
